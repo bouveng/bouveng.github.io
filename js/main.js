@@ -34,9 +34,6 @@
 					var n = i + 1;
 					if( n <= limit ) {
 						html += "<a href='" + item.link + "'><img src='" + item.media.m + "' alt='' /></a>";
-						
-						console.log(item.media)
-						
 					}	
 				}
 				
