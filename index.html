@@ -7,11 +7,10 @@
         <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=0.7">
     <style type="text/css">
-      body {background: #F9E82F;color: #FF3366;
-        font-family: 'din', helvetica ;font-weight: bold;
+      body {background: #F9E82F;color: #FF3366;font-family: 'din', helvetica ;font-weight: bold;padding:15px;
       }
 
-      h1 { font-size: 60px; text-transform: uppercase;letter-spacing: -1px; margin:40px 0px;text-align: left;}
+      h1 { font-size: 60px; text-transform: uppercase;letter-spacing: -1px; margin:40px 0px;text-align: left; max-width: 670px; width:1005;display: inline-block;}
       h2 { font-size: 40px; margin:15px 0;}
       a { color: #ff3366; }
 
@@ -27,13 +26,9 @@
       }
 
       #thx {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        margin-top: -400px;
-        margin-left: -337px;
+        margin-top: 20%;
+        position: relative;
         text-align: center;
-        width: 675px;
       }
 
       .line {
@@ -60,6 +55,11 @@
   }
 }
 
+@media only screen 
+   and (max-width : 768px) {
+   .line {white-space:normal;}
+}
+
 
     </style>
     </head>
@@ -67,7 +67,7 @@
       <div id="thx">
         
         <img src="img/thx.gif" />
-
+        <br/>
         <h1 class="line anim">Thank You Enterprises</h1>
         <h2>sharing is caring</h2>
         <p>Contact <a href="mailto:milica@labelanddose.com">Milica, CCO</a></p>
